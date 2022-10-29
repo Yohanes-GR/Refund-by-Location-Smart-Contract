@@ -70,6 +70,7 @@ cd ETH-dApp--Refund-by-Location
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 npm start
+```
 ## Article
 - [Medium Article](https://medium.com/@yohgut)
   
