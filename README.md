@@ -13,7 +13,8 @@
 
 <img src="screenshoots/develop-test-deploy.jpg" name="">
 <br />
-## Project Overview 
+## Project Overview
+ 
 This project demonstrates a basic Hardhat use case with an Ethereum smart contract, a test for that contract, and a script that deploys that contract. The Ethereum-smart-contract dApp is implemented to verify the other party in the contract has stayed within a predefined geographical location and based on that information it handles payment accordingly.
 ## Table of Contents
 
