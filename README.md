@@ -1,4 +1,5 @@
 <h1 align="center">Refund by Location Smart Contract</h1>
+
 <div>
 <a href="https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference/network/members"><img src="https://img.shields.io/github/forks/Yohanes-GR/Logistic-optimization-Causal-Inference" alt="Forks Badge"/></a>
 <a href="https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference/pulls"><img src="https://img.shields.io/github/issues-pr/Yohanes-GR/Logistic-optimization-Causal-Inference" alt="Pull Requests Badge"/></a>
@@ -12,14 +13,14 @@
 
 <img src="screenshoots/develop-test-deploy.jpg" name="">
 <br />
-
+<h3>Project Overview </h3>
+This project demonstrates a basic Hardhat use case with an Ethereum smart contract, a test for that contract, and a script that deploys that contract. The Ethereum-smart-contract dApp is implemented to verify the other party in the contract has stayed within a predefined geographical location and based on that information it handles payment accordingly.
 ## Table of Contents
 
-* [Logistic-optimization-Causal-Inference](Overivew)
+* [Refund-by-Location-Smart-Contract](Project Overview)
 
   - [Project Structure](#project-structure)
     * [images](#images)
-    * [notebooks](#notebooks)
     * [scripts](#scripts)
     * [root folder](#root-folder)
   - [Installation guide](#installation-guide)
@@ -33,10 +34,6 @@
 ### images:
 
 - `images/` the folder where all snapshot for the project are stored.
-
-### notebooks:
-
-- `notebooks/` the folder which contains code snippets for algorand sdk
 
 ### scripts:
 
@@ -57,8 +54,8 @@
 ## Installation guide
 
 ```bash
-git clone https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference.git
-cd Logistic-optimization-Causal-Inference
+git clone https://github.com/Yohanes-GR/Refund-by-Location-Smart-Contract.git
+cd Refund-by-Location-Smart-Contract
 sudo python3 setup.py install
 ```
 
@@ -66,39 +63,20 @@ sudo python3 setup.py install
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+1. Open a terminal and run:
+```bash
+git clone https://github.com/bkget/ETH-dApp--Refund-by-Location
+cd ETH-dApp--Refund-by-Location 
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+npm start
 ## Article
 - [Medium Article](https://medium.com/@yohgut)
   
-### Installation
-
-1. Open a terminal and run:
-```bash
-git clone https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference.git
-   ```
- Run
-   ```bash
-    sudo python3 setup.py install
-   ```
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Linkedin - [@Linkedin](https://www.linkedin.com/in/yohanes-gutema/)
-
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [10 Academy](https://www.10academy.org/)
-
+Distributed under the MIT License. See `LICENSE` for more information
