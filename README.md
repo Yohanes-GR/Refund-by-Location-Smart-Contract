@@ -10,27 +10,36 @@
 </br>
 <img src="screenshoots/develop-test-deploy.jpg" name="">
 <br />
-## Project Overview
- 
-This project demonstrates a basic Hardhat use case with an Ethereum smart contract, a test for that contract, and a script that deploys that contract. The Ethereum-smart-contract dApp is implemented to verify the other party in the contract has stayed within a predefined geographical location and based on that information it handles payment accordingly.
 ## Table of Contents
 
-   - [Refund-by-Location-Smart-Contract](Project Overview)
-   - [Project Structure](#project-structure)
-    * [images](#screenshoots)
-    * [scripts](#scripts)
-    * [root folder](#root-folder)
-  - [Installation guide](#installation-guide)
-  - [Getting Started](#getting-started)
-    * [Prerequests](*prerequests)
-    * [Installations](*installations)
+### Introduction
+ 
+ Ethereum is a global decentralized transaction-based state machine based on blockchain
+technology. It is best known for its native cryptocurrency, ether, or just ETH. Anyone can
+use it to create any secure digital technology. It has a token designed for use in the
+blockchain network, but it can also be used by participants to pay for blockchain work.
+Ethereum was created with the goal of being scalable, programmable, secure, and
+decentralized. It is used to build decentralized applications, a.k.a. DAPPs. These
+applications exist through small programs that live on the Blockchain, called smart
+contracts. It is the blockchain of choice for developers and businesses developing
+technology based on it to change the way many industries operate and how we live our
+lives.
+### Project Description
+The refund by location smart contract is aimed to be used when an employer agrees to
+pay an employee for being present in a certain geographic area for a certain duration. 
+The
+employee’s phone sends its GPS location to a smart contract at a certain interval. Based
+on the pre-agreed contract codified in an Ethereum smart contract, a cryptocurrency
+payment is executed when all the agreed conditions are met. If, at any point, the GPS
+sensor indicates that an employee is outside the range of the agreed GPS area, the
+contract state will be updated to indicate that it is out of compliance.Before starting our
+implementation let us see the concepts related to our projects
 
 
-## Project Structure
 
-### images:
+### Screenshoot:
 
-- `images/` the folder where all snapshot for the project are stored.
+- `Screenshoots/` the folder where all snapshot for the project are stored.
 
 ### scripts:
 
@@ -44,9 +53,7 @@ This project demonstrates a basic Hardhat use case with an Ethereum smart contra
 ### root folder
 
 - `requirements.txt`: a text file lsiting the projet's dependancies.
-- `setup.py`: a configuration file for installing the scripts as a package.
 - `README.md`: Markdown text with a brief explanation of the project and the repository structure.
-
 
 ## Installation guide
 
