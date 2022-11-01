@@ -3,9 +3,11 @@
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     package="com.example.location_smart_contract">
    <application
+
         android:label="location_smart_contract"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
