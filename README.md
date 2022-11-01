@@ -17,7 +17,7 @@ This project demonstrates a basic Hardhat use case with an Ethereum smart contra
 
    - [Refund-by-Location-Smart-Contract](Project Overview)
    - [Project Structure](#project-structure)
-    * [images](#images)
+    * [images](#screenshoots)
     * [scripts](#scripts)
     * [root folder](#root-folder)
   - [Installation guide](#installation-guide)
@@ -52,22 +52,12 @@ This project demonstrates a basic Hardhat use case with an Ethereum smart contra
 
 ```bash
 git clone https://github.com/Yohanes-GR/Refund-by-Location-Smart-Contract.git
-cd Refund-by-Location-Smart-Contract
-sudo python3 setup.py install
-```
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-1. Open a terminal and run:
-```bash
-git clone https://github.com/bkget/ETH-dApp--Refund-by-Location
-cd ETH-dApp--Refund-by-Location 
+cd Refund-by-Location-Smart-Contract\
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 npm start
 ```
+
 ## Article
 - [Medium Article](https://medium.com/@yohgut)
   
