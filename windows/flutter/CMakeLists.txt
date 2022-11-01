@@ -9,7 +9,6 @@ include(${EPHEMERAL_DIR}/generated_config.cmake)
 # TODO: Move the rest of this into files in ephemeral. See
 # https://github.com/flutter/flutter/issues/57146.
 set(WRAPPER_ROOT "${EPHEMERAL_DIR}/cpp_client_wrapper")
-
 # === Flutter Library ===
 set(FLUTTER_LIBRARY "${EPHEMERAL_DIR}/flutter_windows.dll")
 
@@ -77,7 +76,6 @@ target_include_directories(flutter_wrapper_app PUBLIC
   "${WRAPPER_ROOT}/include"
 )
 add_dependencies(flutter_wrapper_app flutter_assemble)
-
 # === Flutter tool backend ===
 # _phony_ is a non-existent file to force this command to run every time,
 # since currently there's no way to get a full input/output list from the
