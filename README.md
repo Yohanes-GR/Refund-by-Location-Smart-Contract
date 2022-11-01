@@ -7,10 +7,7 @@
 <a href="https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Yohanes-GR/Logistic-optimization-Causal-Inference?color=2b9348"></a>
 <a href="https://github.com/Yohanes-GR/Logistic-optimization-Causal-Inference/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Yohanes-GR/Logistic-optimization-Causal-Inference?color=2b9348" alt="License Badge"/></a>
 </div>
-
-
 </br>
-
 <img src="screenshoots/develop-test-deploy.jpg" name="">
 <br />
 ## Project Overview
