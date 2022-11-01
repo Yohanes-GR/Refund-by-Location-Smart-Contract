@@ -47,10 +47,6 @@ implementation let us see the concepts related to our projects
 
 - `.scripts/`: the folder where the python implementation can be found.
 
-### .github:
-
-- `.github/`: the folder where github actions and CML workflow is integrated.
-
 
 ### root folder
 
