@@ -21,7 +21,6 @@ describe("Lock", function () {
 
     const Lock = await ethers.getContractFactory("Lock");
     const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
-
     return { lock, unlockTime, lockedAmount, owner, otherAccount };
   }
 
